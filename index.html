@@ -4,40 +4,118 @@ index.html
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SandmanWild Site</title>
+  <title>Sandman Wildlife Control</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
       padding: 0;
+      background-color: #f5f5f5;
+      line-height: 1.6;
     }
+
     header {
-      background: #222;
+      background-color: #222;
       color: white;
       padding: 40px 20px;
       text-align: center;
     }
+
+    header img.logo {
+      max-width: 150px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    header img.banner {
+      max-width: 100%;
+      margin-top: 10px;
+      border-radius: 6px;
+    }
+
+    header h1 {
+      margin: 10px 0 5px 0;
+      font-size: 2em;
+    }
+
+    header p.motto {
+      margin: 0;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+
     section {
       padding: 40px 20px;
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    footer {
-      background: #222;
+
+    h2 {
+      color: #222;
+      margin-top: 0;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #222;
       color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+
+    footer {
       text-align: center;
       padding: 20px;
+      background-color: #222;
+      color: white;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to SandmanWild</h1>
-  </header>
-  <section>
-    <p>This will be your live one-page site running on GitHub Pages.</p>
-  </section>
-  <footer>
-    <p>Site powered by GitHub Pages</p>
-  </footer>
+
+<header>
+  <img src="assets/images/logo.png" alt="Sandman Wildlife Logo" class="logo">
+  <h1>Sandman Wildlife Control</h1>
+  <p class="motto">Humane Wildlife Control</p>
+  <img src="assets/images/banner.png" alt="Company Information Banner" class="banner">
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I’m Bob Lange — My property was overrun and the destruction was spreading I wanted a humane way without poisons or traps to stop the invasion. That's why we do it. Livestock can safely walk with less risk .</p>
+</section>
+
+<section id="services">
+  <h2>Topics & Services</h2>
+  <ul>
+    <li>Humane Wildlife Control</li>
+    <li>Have-A-Hart Trapping</li>
+    <li>The Approach</li>
+    <li>How we price our services</li>
+    <li>Our Promise</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact / Book Me</h2>
+  <p>Email: <a href="mailto:Info@sandmanwildlife.com">sandmanwildlife.com</a></p>
+  <a href="mailto:info@sandmanwildlife.com" class="button">Contact Me</a>
+</section>
+
+<footer>
+  &copy; 2025 Sandman Wildlife Control | Humane Wildlife Control
+</footer>
+
 </body>
 </html>
